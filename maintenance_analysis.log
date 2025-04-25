@@ -1,0 +1,87 @@
+2025-04-25 18:45:22,954 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 18:45:22,979 - INFO - Data validation completed successfully
+2025-04-25 18:45:23,814 - ERROR - An unexpected error occurred: 'Equipment Name'
+2025-04-25 19:06:07,574 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:06:07,581 - INFO - Data validation completed successfully
+2025-04-25 19:06:07,582 - INFO - Column mapping completed successfully
+2025-04-25 19:06:07,816 - INFO - Data preprocessing completed successfully
+2025-04-25 19:06:07,817 - ERROR - An unexpected error occurred: 'Equipment Name'
+2025-04-25 19:08:05,134 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:08:05,139 - INFO - Data validation completed successfully
+2025-04-25 19:08:05,141 - INFO - Column mapping completed successfully
+2025-04-25 19:08:05,379 - INFO - Data preprocessing completed successfully
+2025-04-25 19:08:05,379 - ERROR - An unexpected error occurred: 'Equipment Name'
+2025-04-25 19:11:41,930 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:11:41,935 - INFO - Data validation completed successfully
+2025-04-25 19:11:41,936 - INFO - Column mapping completed successfully
+2025-04-25 19:11:42,175 - INFO - Data preprocessing completed successfully
+2025-04-25 19:11:42,180 - ERROR - An unexpected error occurred: 'Month-Year'
+2025-04-25 19:12:43,462 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:12:43,467 - INFO - Data validation completed successfully
+2025-04-25 19:12:43,467 - INFO - Column mapping completed successfully
+2025-04-25 19:12:43,711 - INFO - Data preprocessing completed successfully
+2025-04-25 19:12:43,717 - ERROR - An unexpected error occurred: 'month_year'
+2025-04-25 19:14:17,361 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:14:17,366 - INFO - Data validation completed successfully
+2025-04-25 19:14:17,366 - INFO - Column mapping completed successfully
+2025-04-25 19:14:17,601 - INFO - Data preprocessing completed successfully
+2025-04-25 19:14:17,619 - ERROR - An unexpected error occurred: 'MaintenanceAnalyzer' object has no attribute 'plot_cost_distribution'
+2025-04-25 19:16:03,457 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:16:03,462 - INFO - Data validation completed successfully
+2025-04-25 19:16:03,462 - INFO - Column mapping completed successfully
+2025-04-25 19:16:03,691 - INFO - Data preprocessing completed successfully
+2025-04-25 19:16:04,546 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:16:04,547 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:16:05,926 - ERROR - An unexpected error occurred: "Column(s) ['maintenance_cost'] do not exist"
+2025-04-25 19:18:23,546 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:18:23,551 - INFO - Data validation completed successfully
+2025-04-25 19:18:23,551 - INFO - Column mapping completed successfully
+2025-04-25 19:18:23,766 - INFO - Data preprocessing completed successfully
+2025-04-25 19:18:24,242 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:18:24,243 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:18:25,475 - ERROR - An unexpected error occurred: "Column(s) ['maintenance_cost'] do not exist"
+2025-04-25 19:20:36,347 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:20:36,351 - INFO - Data validation completed successfully
+2025-04-25 19:20:36,351 - INFO - Column mapping completed successfully
+2025-04-25 19:20:36,573 - INFO - Data preprocessing completed successfully
+2025-04-25 19:20:37,086 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:20:37,089 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:20:39,629 - ERROR - An unexpected error occurred: 'start_date'
+2025-04-25 19:21:33,266 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:21:33,270 - INFO - Data validation completed successfully
+2025-04-25 19:21:33,271 - INFO - Column mapping completed successfully
+2025-04-25 19:21:33,509 - INFO - Data preprocessing completed successfully
+2025-04-25 19:21:33,908 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:21:33,909 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:21:36,365 - ERROR - An unexpected error occurred: 'start_date'
+2025-04-25 19:23:22,065 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:23:22,069 - INFO - Data validation completed successfully
+2025-04-25 19:23:22,070 - INFO - Column mapping completed successfully
+2025-04-25 19:23:22,306 - INFO - Data preprocessing completed successfully
+2025-04-25 19:23:22,849 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:23:22,850 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:25:39,383 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:25:39,398 - INFO - Data validation completed successfully
+2025-04-25 19:25:39,399 - INFO - Column mapping completed successfully
+2025-04-25 19:25:39,679 - INFO - Data preprocessing completed successfully
+2025-04-25 19:25:40,214 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:25:40,215 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:34:32,115 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:34:32,127 - INFO - Data validation completed successfully
+2025-04-25 19:34:32,128 - INFO - Column mapping completed successfully
+2025-04-25 19:34:32,361 - INFO - Data preprocessing completed successfully
+2025-04-25 19:34:32,921 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:34:32,923 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-25 19:37:10,929 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 19:37:10,940 - INFO - Data validation completed successfully
+2025-04-25 19:37:10,940 - INFO - Column mapping completed successfully
+2025-04-25 19:37:11,420 - INFO - Data preprocessing completed successfully
+2025-04-25 20:07:20,362 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 20:07:20,399 - INFO - Data validation completed successfully
+2025-04-25 20:07:20,399 - INFO - Column mapping completed successfully
+2025-04-25 20:07:21,008 - INFO - Data preprocessing completed successfully
+2025-04-25 20:08:22,310 - INFO - Initializing MaintenanceAnalyzer with data from sample.csv
+2025-04-25 20:08:22,343 - INFO - Data validation completed successfully
+2025-04-25 20:08:22,343 - INFO - Column mapping completed successfully
+2025-04-25 20:08:22,993 - INFO - Data preprocessing completed successfully
+2025-04-25 20:17:26,570 - ERROR - An unexpected error occurred: name 'story' is not defined

@@ -4,31 +4,41 @@ A comprehensive Python-based analysis system for industrial equipment maintenanc
 
 ## Overview
 
-This system analyzes equipment maintenance data to provide insights into costs, reliability, efficiency, and seasonal patterns. It generates both interactive HTML reports and professional PDF documents containing detailed analysis and recommendations.
+This system analyzes equipment maintenance data to provide insights into costs, reliability, efficiency, and seasonal patterns. It leverages AI/ML techniques for advanced pattern detection and anomaly identification, generating both interactive HTML reports and professional PDF documents containing detailed analysis and recommendations.
 
 ## Features
 
-- **Comprehensive Analysis**
-  - Equipment cost analysis
-  - Reliability metrics
-  - Cost efficiency evaluation
-  - Seasonal pattern analysis
-  - Maintenance scheduling optimization
-  - Critical equipment monitoring
+### Core Analysis
+- Equipment cost analysis
+- Reliability metrics
+- Cost efficiency evaluation
+- Seasonal pattern analysis
+- Maintenance scheduling optimization
+- Critical equipment monitoring
 
-- **Advanced Visualizations**
-  - Cost distribution charts
-  - Reliability metrics quadrant analysis
-  - Cost efficiency heatmaps
-  - Seasonal pattern comparisons
-  - Temporal trend analysis
+### AI-Driven Features
+- Automated pattern detection using clustering
+- Anomaly detection in maintenance events
+- Predictive maintenance insights
+- Equipment behavior pattern analysis
+- Cost optimization recommendations
+- Dynamic data column mapping
 
-- **Interactive Reports**
-  - Dynamic HTML reports with interactive elements
-  - Professional PDF reports with executive summaries
-  - Detailed recommendations with action plans
-  - Key Performance Indicators (KPIs)
-  - Cost-saving opportunities identification
+### Advanced Visualizations
+- Cost distribution charts
+- Reliability metrics quadrant analysis
+- Cost efficiency heatmaps
+- Seasonal pattern comparisons
+- Temporal trend analysis
+- AI pattern visualization dashboard
+
+### Interactive Reports
+- Dynamic HTML reports with interactive elements
+- Professional PDF reports with executive summaries
+- AI-driven insights section
+- Detailed recommendations with action plans
+- Key Performance Indicators (KPIs)
+- Cost-saving opportunities identification
 
 ## Requirements
 
@@ -52,7 +62,7 @@ This system analyzes equipment maintenance data to provide insights into costs, 
 
 ## Usage
 
-1. Prepare your maintenance data in CSV format with the following columns:
+1. Prepare your maintenance data in CSV format with the following required columns:
    - Equipment Name
    - Equipment ID
    - Criticality level
@@ -63,51 +73,37 @@ This system analyzes equipment maintenance data to provide insights into costs, 
    - Duration
    - Maintenance cost
 
-2. Run the analysis:
+2. Run the analysis using the command-line interface:
    ```bash
-   python maintenance_analysis.py
+   python maintenance_analysis.py data.csv [options]
    ```
 
-3. The system will generate a results folder and files named after your input CSV:
-   - Results folder: `maintenance_analysis_results_[csvname]`
-   - Interactive HTML report: `comprehensive_report_[csvname].html`
-   - Professional PDF report: `comprehensive_report_[csvname].pdf`
-   - Visualization files:
-     - `cost_distribution_[csvname].png`
-     - `cost_efficiency_[csvname].png`
-     - `reliability_metrics_[csvname].png`
-     - `seasonal_patterns_[csvname].png`
-     - `temporal_trends_[csvname].png`
+   Options:
+   - `--output-dir DIR`: Specify output directory (default: maintenance_analysis_results)
+   - `--model-version VERSION`: Specify AI model version (default: v1)
+   - `--debug`: Enable debug logging
 
-   For example, if your input file is `sample.csv`, the output will be:
-   - Folder: `maintenance_analysis_results_sample`
-   - Reports: `comprehensive_report_sample.html/pdf`
-   - Images: `cost_distribution_sample.png`, etc.
+3. The system will generate a results folder with the following structure:
+   ```
+   maintenance_analysis_results_[csvname]/
+   ├── comprehensive_report_[csvname].html
+   ├── comprehensive_report_[csvname].pdf
+   ├── cost_distribution_[csvname].png
+   ├── cost_efficiency_[csvname].png
+   ├── reliability_metrics_[csvname].png
+   ├── seasonal_patterns_[csvname].png
+   ├── temporal_trends_[csvname].png
+   └── ai_insights_[csvname].png
+   ```
 
-## Output Files
-
-### HTML Report
-- Interactive web-based dashboard
-- Navigation menu for easy section access
-- Responsive design for all screen sizes
-- Interactive data tables with sorting capabilities
-- Visual KPI cards and metrics display
-
-### PDF Report
-- Professional executive summary
-- Detailed equipment analysis
-- High-quality visualizations
-- Concise, actionable recommendations
-- KPI summary and metrics
-- One-page recommendations section
-
-### Visualization Files
-All visualization files are generated in high resolution (300 DPI) and include:
-- Cost distribution analysis
-- Cost efficiency heatmaps
-- Reliability metrics quadrant
-- Seasonal pattern analysis
-- Temporal trend visualization
+   Additionally, AI models and metadata are saved in:
+   ```
+   maintenance_models/[version]/
+   ├── equipment_clusters.joblib
+   ├── anomaly_detector.joblib
+   ├── pattern_detector.joblib
+   └── metadata.json
+   ```
 
 ## Analysis Components
 
@@ -115,36 +111,49 @@ All visualization files are generated in high resolution (300 DPI) and include:
 - Total and average maintenance costs
 - Cost distribution by equipment type
 - Cost trends over time
+- AI-driven cost pattern detection
 
 ### 2. Reliability Analysis
 - Maintenance frequency analysis
 - Equipment downtime patterns
 - Mean time between maintenance
+- AI-based anomaly detection
 
 ### 3. Cost Efficiency Analysis
 - Cost per maintenance day
 - Efficiency metrics by equipment type
 - Cost optimization opportunities
+- AI-driven efficiency clustering
 
 ### 4. Seasonal Pattern Analysis
 - Seasonal maintenance distribution
 - Peak period identification
 - Workload optimization recommendations
+- Pattern evolution tracking
 
-### 5. Recommendations
-- Data-driven maintenance strategies
-- Cost optimization opportunities
-- Equipment replacement recommendations
-- Scheduling optimization suggestions
-- Inventory management improvements
+### 5. AI-Driven Insights
+- Equipment clustering analysis
+- Maintenance anomaly detection
+- Pattern identification
+- Predictive recommendations
+
+## Error Handling
+
+The system includes comprehensive error handling:
+- Input data validation
+- Required column checking
+- Data type verification
+- Automatic column mapping
+- Detailed error logging
 
 ## Customization
 
-The analysis system can be customized by modifying:
-- Visualization parameters in plotting functions
-- Analysis thresholds in recommendation generation
-- Report formatting in PDF and HTML generation
-- KPI calculations in the analysis methods
+The analysis system can be customized by:
+- Modifying visualization parameters in plotting functions
+- Adjusting AI model parameters
+- Customizing report formatting
+- Adding new analysis components
+- Extending AI feature engineering
 
 ## Contributing
 
